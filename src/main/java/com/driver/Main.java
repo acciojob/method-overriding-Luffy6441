@@ -8,7 +8,7 @@ public class Main {
 }
 
 class A{
-    public String meth() {
+    public static String meth() {
         rerturn "Invoking method from class A";
     }
 }
