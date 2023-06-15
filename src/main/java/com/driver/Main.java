@@ -14,9 +14,8 @@ class A{
     }
 }
 
-class B{
+class B extends A{
     public String meth(){
-        // return super.meth();
-        return "Method is overridden in Extended class B";
+        return super.meth();   
     }
 }
