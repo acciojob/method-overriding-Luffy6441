@@ -16,6 +16,7 @@ class A{
 
 class B{
     public String meth(){
-        return super.meth();
+        // return super.meth();
+        return "Method is overridden in Extended class B";
     }
 }
